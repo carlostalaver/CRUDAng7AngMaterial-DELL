@@ -25,3 +25,22 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+# Para este pryecto
+
+## Instalar la dependencia angular firebase
+
+ 1 - npm install firebase @angular/fire --save
+      Esta dependencia es usada para poder manejar los datos que estan en fire
+      Documentación en https://github.com/angular/angularfire2
+      
+ 2 - En la carpeta environments agregar la configuracion para poder conectar al firebase
+
+  configFireBase:  {
+    apiKey: "AIzaSyDgTEwLGAeMPNzRkh_JjW1By3TJ7R6TUlw",
+    authDomain: "customer2103-ea456.firebaseapp.com",
+    databaseURL: "https://customer2103-ea456.firebaseio.com",
+    projectId: "customer2103-ea456",
+    storageBucket: "customer2103-ea456.appspot.com",
+    messagingSenderId: "289386871276",
+  }
